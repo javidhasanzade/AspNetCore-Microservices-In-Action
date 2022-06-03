@@ -1,8 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{BA30617F-4389-4984-AB04-448B49A7CE4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{204A9A41-592D-4616-B69C-CDFD60E03B63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{DD511EC9-E01B-474E-A6ED-4422E9769FF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{204A9A41-592D-4616-B69C-CDFD60E03B63} = {BA30617F-4389-4984-AB04-448B49A7CE4D}
+		{DD511EC9-E01B-474E-A6ED-4422E9769FF4} = {204A9A41-592D-4616-B69C-CDFD60E03B63}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD511EC9-E01B-474E-A6ED-4422E9769FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD511EC9-E01B-474E-A6ED-4422E9769FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD511EC9-E01B-474E-A6ED-4422E9769FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD511EC9-E01B-474E-A6ED-4422E9769FF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
