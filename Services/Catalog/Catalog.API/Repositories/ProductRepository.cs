@@ -1,6 +1,8 @@
 ﻿using Catalog.API.Data;
 using Catalog.API.Entities;
 using MongoDB.Driver;
+using MongoDB.Driver.Linq;
+using System.Linq.Expressions;
 
 namespace Catalog.API.Repositories;
 
@@ -13,10 +15,11 @@ public class ProductRepository : IProductRepository
         _catalogContext = catalogContext;
     }
     
-    public async Task<IEnumerable<Product>> GetProducts()
+    public async Task<IEnumerable<Product>> GetProducts(int page=0)
     {
-        return await _catalogContext.Products
-            .Find(p => true)
+        return await _catalogContext.Products.AsQueryable()
+            .Skip(9*page)
+            .Take(9)
             .ToListAsync();
     }
 

@@ -15,11 +15,14 @@ public class Product
     [BsonElement("category")]
     public string Category { get; set; }
     
-    [BsonElement("summary")]
-    public string Summary { get; set; }
-    
     [BsonElement("description")]
     public string Description { get; set; }
+
+    [BsonElement("seller")]
+    public string Seller { get; set; }
+
+    [BsonElement("quantity")]
+    public int Quantity { get; set; }
     
     [BsonElement("image_file")]
     public string ImageFile { get; set; }

@@ -15,6 +15,18 @@ services:
     ports:
       - "6379:6379"
 
+  #discountdb:
+  #  container_name: discountdb
+  #  environment:
+  #    - POSTGRES_USER=admin
+  #    - POSTGRES_PASSWORD=admin1234
+  #    - POSTGRES_DB=DiscountDb
+  #  restart: always
+  #  ports:
+  #    - "5432:5432"
+  #  volumes:
+  #    - postgres_data:/var/lib/postgresql/data/
+
   portainer:
     container_name: portainer
     restart: always
@@ -29,7 +41,7 @@ services:
     container_name: catalog.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - "DatabaseSettings:ConnectionString=mongodb://catalogdb:27017"
+      - "DatabaseSettings:ConnectionString=mongodb+srv://dev:GucUAM1gdeZrsKKf@cluster0.y3tqdsj.mongodb.net/"
     depends_on:
       - catalogdb
     ports:

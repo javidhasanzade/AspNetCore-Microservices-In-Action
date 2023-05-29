@@ -20,9 +20,10 @@ public class CatalogController : ControllerBase
 
     [HttpGet]
     [ProducesResponseType(typeof(IEnumerable<Product>), (int)HttpStatusCode.OK)]
-    public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
+    public async Task<ActionResult<IEnumerable<Product>>> GetProducts(int page=0)
     {
-        var products = await _productRepository.GetProducts();
+        var products = await _productRepository.GetProducts(page);
+        Console.WriteLine("Get pagination");
         return Ok(products);
     }
 
