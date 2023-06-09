@@ -22,6 +22,7 @@ public class CatalogController : ControllerBase
     [ProducesResponseType(typeof(IEnumerable<Product>), (int)HttpStatusCode.OK)]
     public async Task<ActionResult<IEnumerable<Product>>> GetProducts(int page=0)
     {
+        Console.WriteLine("ALLO");
         var products = await _productRepository.GetProducts(page);
         Console.WriteLine("Get pagination");
         return Ok(products);

@@ -65,7 +65,7 @@ public class CatalogContextSeed
                 new Product()
                 {
                     Id = "602d2149e773f2a3990b47f9",
-                    Name = "HTC U11+ Plus",
+                    Name = "Strawberry",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.",
                     ImageFile = "product-5.png",
                     Price = 380.00M,
@@ -76,14 +76,80 @@ public class CatalogContextSeed
                 new Product()
                 {
                     Id = "602d2149e773f2a3990b47fa",
-                    Name = "LG G7 ThinQ",
+                    Name = "Cherry",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.",
                     ImageFile = "product-6.png",
                     Price = 240.00M,
                     Category = "Home Kitchen",
                     Quantity = 50,
                     Seller = "Eldar"
-                }
+                },
+                new Product()
+                {
+                    Id = "602d2149e773f2a3990b47fb",
+                    Name = "Peach",
+                    Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.",
+                    ImageFile = "product-7.png",
+                    Price = 240.00M,
+                    Category = "Home Kitchen",
+                    Quantity = 50,
+                    Seller = "Eldar1"
+                },
+                new Product()
+                {
+                    Id = "602d2149e773f2a3990b47fc",
+                    Name = "Bananas 2kg",
+                    Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.",
+                    ImageFile = "product-8.png",
+                    Price = 240.00M,
+                    Category = "Home Kitchen",
+                    Quantity = 50,
+                    Seller = "Eldar2"
+                },
+                new Product()
+                {
+                    Id = "602d2149e773f2a3990b47fd",
+                    Name = "Apples 3kg",
+                    Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.",
+                    ImageFile = "product-9.png",
+                    Price = 240.00M,
+                    Category = "Home Kitchen",
+                    Quantity = 50,
+                    Seller = "Javva"
+                },
+                new Product()
+                {
+                    Id = "602d2149e773f2a3990b47fe",
+                    Name = "Watermelon 20 stuck",
+                    Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.",
+                    ImageFile = "product-10.png",
+                    Price = 240.00M,
+                    Category = "Home Kitchen",
+                    Quantity = 50,
+                    Seller = "Romail"
+                },
+                new Product()
+                {
+                    Id = "602d2149e773f2a3990b47ff",
+                    Name = "Gurken",
+                    Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.",
+                    ImageFile = "product-11.png",
+                    Price = 240.00M,
+                    Category = "Home Kitchen",
+                    Quantity = 50,
+                    Seller = "Fira"
+                },
+                new Product()
+                {
+                    Id = "602d2149e773f2a3990b47da",
+                    Name = "Grapes",
+                    Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.",
+                    ImageFile = "product-12.png",
+                    Price = 240.00M,
+                    Category = "Fruits",
+                    Quantity = 50,
+                    Seller = "Iboba"
+                },
             };
     }
 }

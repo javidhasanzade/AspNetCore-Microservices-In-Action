@@ -2,7 +2,6 @@
 using Catalog.API.Entities;
 using MongoDB.Driver;
 using MongoDB.Driver.Linq;
-using System.Linq.Expressions;
 
 namespace Catalog.API.Repositories;
 
